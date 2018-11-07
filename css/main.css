@@ -14,11 +14,11 @@ a:link, a:visited {
 }
 
 .my-name {
-    font-size: 3em;
+    font-size: 6em;
     text-align: center;
     letter-spacing: 0.5em;
     
-    margin-top: 10%;
+    margin-top: 3%;
     margin-bottom: 1em;
 }
 
