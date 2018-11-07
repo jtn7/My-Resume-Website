@@ -4,7 +4,7 @@
 }
 
 html {
-    display: flex;
+    display: grid;
 }
 
 body {
