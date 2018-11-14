@@ -81,11 +81,14 @@ a:link, a:visited {
     width: 80%;
     /* border-top: 0.1em solid black; */
     /* border-bottom: 0.1em solid black; */
-    border-top: 0.15em solid black;
+    /* border-top: 0.15em solid black;
     border-left: 0.15em solid black;
-    border-right: 0.15em solid black;
+    border-right: 0.15em solid black; */
+    border: 0.15em solid black;
+    border-radius: 0.15em;
     font-size: 2.8em;
-    margin: auto
+    margin: auto;
+    margin-bottom: 1em;
 }
 
 .navbar ul {
@@ -203,9 +206,9 @@ a:link, a:visited {
 
 #skills {
     display: block;
-    width: 75%;
+    width: 70%;
     margin: auto;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 .skill-cards {
@@ -214,7 +217,6 @@ a:link, a:visited {
 
 .skill-cards>section { 
     display: inline-block;
-    flex: 1 1 calc(25% - 1rem);
     font-family: Regular;
     text-align: center;
     font-size: 0.4em;
@@ -223,10 +225,10 @@ a:link, a:visited {
     border-radius: 0.3em;
     transition: all 300ms ease;
 
-    height: 4em;
-    width: 4em;
+    height: 5em;
+    width: 5em;
     padding: 2em;
-    margin: 1em;
+    margin: 0.8em;
     background-color: white;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
 }
